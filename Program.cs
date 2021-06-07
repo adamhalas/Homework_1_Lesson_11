@@ -50,7 +50,7 @@ namespace Zadanie_domowe_3
                     Console.WriteLine("The number you entered is even.");
                     break;
                 case false:
-                    Console.WriteLine("The number you entered is uneven.");
+                    Console.WriteLine("The number you entered is odd.");
                     break;
             }
         }
