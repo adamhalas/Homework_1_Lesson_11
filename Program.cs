@@ -20,15 +20,15 @@ namespace Zadanie_domowe_3
 
                 while (true)
                 {
-                    Console.Write("\nGramy dalej? t/n : ");
+                    Console.Write("\nContinue? y/n : ");
                     var userInput = Console.ReadLine();
 
-                    if (userInput.ToLower() != "t" && userInput.ToLower() != "n" )
+                    if (userInput.ToLower() != "y" && userInput.ToLower() != "n" )
                     {
-                        Console.WriteLine("Please choose between 't' or 'n'. No other input!");
+                        Console.WriteLine("Please choose between 'y' or 'n'. No other input!");
                         continue;
                     }
-                    else if (userInput == "t")
+                    else if (userInput == "y")
                     {
                         break;
                     }
