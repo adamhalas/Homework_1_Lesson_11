@@ -16,7 +16,7 @@ namespace Zadanie_domowe_3
             {
                 var number = GetNumber();
 
-                DisplayMessage(getEven(number));
+                DisplayMessage(GetEven(number));
 
                 while (true)
                 {
@@ -55,7 +55,7 @@ namespace Zadanie_domowe_3
             }
         }
 
-        private static bool getEven(int num)
+        private static bool GetEven(int num)
         {
             if (num % 2 == 0)
             {
