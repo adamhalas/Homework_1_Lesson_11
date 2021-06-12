@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Zadanie_domowe_3
+namespace Homework_Week_4_Lesson_11
 {
     class Program
     {
